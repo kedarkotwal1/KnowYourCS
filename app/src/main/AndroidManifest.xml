@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.knowyourcs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".timetablepage"></activity>
+        <activity android:name=".essentiallangs" />
+        <activity android:name=".jobopps" />
+        <activity android:name=".softreq" />
+        <activity
+            android:name=".adminregister"
+            android:noHistory="true" />
+        <activity android:name=".numcon" />
+        <activity
+            android:name=".infoaboutcspage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".adminlogin"
+            android:noHistory="true" />
+        <activity android:name=".adminpage" />
+        <activity android:name=".syllabusyearselectpage" />
+        <activity android:name=".tyquestionpapers" />
+        <activity android:name=".syquestionpapers" />
+        <activity android:name=".qpaperyearselection" />
+        <activity android:name=".notesPaperSelection" />
+        <activity android:name=".fyquestionpapers" />
+        <activity android:name=".tynotes" />
+        <activity android:name=".synotes" />
+        <activity android:name=".startupscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fynotes" />
+        <activity android:name=".notes_page" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+    </application>
+
+</manifest>

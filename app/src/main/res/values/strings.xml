@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KnowYourCS</string>
+    <string name="computerdescription">An electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program. A person who makes calculations, especially with a calculating machine.</string>
+
+
+    <string-array name="numsystems">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+        <item>Decimal</item>
+    </string-array>
+</resources>
